@@ -9,5 +9,7 @@ Temp/
 *.blend1
 *.blend2
 *.unityproj
+*.suo
+obj/
 .DS_Store
 *~*

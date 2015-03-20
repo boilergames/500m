@@ -27,7 +27,7 @@ public class World : MonoBehaviour {
 			Quaternion quaternion = Quaternion.identity;
 			Transform newPlatform =	Instantiate(platformPrefab, position, quaternion) as Transform;
 			newPlatform.localScale = scale;
-			newPlatform.rigidbody.AddTorque(torque);
+			newPlatform.GetComponent<Rigidbody>().AddTorque(torque);
 		}
 		
 	}
