@@ -102,8 +102,9 @@ public class Menu : MonoBehaviour {
 		GUILayout.Label("To steer your ball use the arrow keys or wasd.");
 		GUILayout.Label("For air control hold down shift (this is not unlimited).");
 		GUILayout.Label("Made by Jan W");
-		GUILayout.Label("Please send all hatemail to: xrcore@aol.de");
-		GUILayout.Label("For more info see: http://jancc.de");
+		GUILayout.Label("Please send feedback to:");
+		GUILayout.Label("slartibartfast@klockenschooster.de");
+		GUILayout.Label("For more info see: https://klockenschooster.de");
 	}
 	
 	void DoGUISettings() {
